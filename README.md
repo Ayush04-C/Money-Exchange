@@ -12,7 +12,10 @@ CSS – Basic styling for a clean look
 JavaScript – Fetching and displaying exchange rates dynamically
 ExchangeRate API – Real-time currency data
 
-How to Use
+How to Use:
+
+On your terminal do the following:
+
 Clone the repository:
 git clone https://github.com/your-username/your-repo-name.git
 
