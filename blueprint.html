@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="styling.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Welcome to CC island</h1>
+    <p>We here provide you with latest data about Currency rates</p>
+    <div class="container">
+      <div class="transparent">
+        <p class="From">
+          <select id="CurrencyFrom">
+            <option value="AED">AED (UAE)</option>
+            <option value="AUD">AUD (Australia)</option>
+            <option value="BDT">BDT (Bangladesh)</option>
+            <option value="BGN">BGN (Bulgaria)</option>
+            <option value="BRL">BRL (Brazil)</option>
+            <option value="CAD">CAD (Canada)</option>
+            <option value="CHF">CHF (Switzerland)</option>
+            <option value="CNY">CNY (China)</option>
+            <option value="CZK">CZK (Czech Republic)</option>
+            <option value="EGP">EGP (Egypt)</option>
+            <option value="EUR">EUR (European Union)</option>
+            <option value="GBP">GBP (United Kingdom)</option>
+            <option value="HKD">HKD (Hong Kong)</option>
+            <option value="IDR">IDR (Indonesia)</option>
+            <option value="INR">INR (India)</option>
+            <option value="IQD">IQD (Iraq)</option>
+            <option value="KRW">KRW (Korea)</option>
+            <option value="USD">USD (United States)</option>
+            <option value="JPY">YEN (Japan)</option>
+          </select>
+        </p>
+        <input type="text" id="userinput" placeholder="Enter amount: " />
+        <p>
+          <select id="CurrencyTo">
+            <option value="AED">AED (UAE)</option>
+            <option value="AUD">AUD (Australia)</option>
+            <option value="BDT">BDT (Bangladesh)</option>
+            <option value="BGN">BGN</option>
+            <option value="BRL">BRL (Brazil)</option>
+            <option value="CAD">CAD (Canada)</option>
+            <option value="CHF">CHF (Switzerland)</option>
+            <option value="CNY">CNY (China)</option>
+            <option value="CZK">CZK (Czech Republic)</option>
+            <option value="EGP">EGP (Egypt)</option>
+            <option value="EUR">EUR (European Union)</option>
+            <option value="GBP">GBP (United Kingdom)</option>
+            <option value="HKD">HKD (Hong Kong)</option>
+            <option value="IDR">IDR (Indonesia)</option>
+            <option value="INR">INR (India)</option>
+            <option value="IQD">IQD (Iraq)</option>
+            <option value="KRW">KRW (Korea)</option>
+            <option value="USD">USD (United States)</option>
+            <option value="JPY">YEN (Japan)</option>
+          </select>
+        </p>
+        <div id="output">
+          <p id="CC"></p>
+        </div>
+        <button id="convert">Convert</button>
+      </div>
+    </div>
+    <script src="functionality.js"></script>
+  </body>
+</html>
